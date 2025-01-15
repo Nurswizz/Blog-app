@@ -1,0 +1,28 @@
+.post {
+  display: flex;
+  background-color: #c2b97f;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.post:hover {
+  background-color: #e0d4b7;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.post img {
+  border-radius: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.content p,
+h2 {
+  margin: 1rem;
+}

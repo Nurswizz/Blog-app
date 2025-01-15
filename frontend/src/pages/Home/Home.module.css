@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home h1 {
+  color: #c2b97f;
+  align-self: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+  max-width: 50%;
+}
