@@ -1,0 +1,17 @@
+.post {
+  display: flex;
+  background-color: #C2B97F;
+  width: 100%;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+.content p, h2 {
+  margin: 1rem;
+}
