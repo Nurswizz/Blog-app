@@ -1,7 +1,7 @@
 import style from "./Post.module.css";
 import { useNavigate } from "react-router-dom";
 
-export const Post = () => {
+const Post = () => {
   const navigate = useNavigate();
   return (
     <div
@@ -25,3 +25,5 @@ export const Post = () => {
     </div>
   );
 };
+
+export default Post;

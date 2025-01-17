@@ -1,26 +1,27 @@
 import { Button } from "@mui/material";
-import style from "./Navbar.module.css";
+import styles from "./Navbar.module.css";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
+
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
+
   return (
-    <div className={style.navbar}>
+    <div className={styles.navbar}>
       <Button
         variant="text"
-        sx={{ color: "white" }}
-        onClick={() => {
-          navigate("/");
-        }}
+        className={styles.button}
+        onClick={() => handleNavigate("/")}
       >
         Home
       </Button>
       <Button
         variant="text"
-        sx={{ color: "white" }}
-        onClick={() => {
-          navigate("/profile");
-        }}
+        className={styles.button}
+        onClick={() => handleNavigate("/profile")}
       >
         Profile
       </Button>

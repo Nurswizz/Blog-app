@@ -1,5 +1,6 @@
 import style from "./Profile.module.css";
 import Navbar from "../../components/Navbar/Navbar";
+import Posts from "../../components/Posts/Posts";
 
 const Profile = () => {
   return (
@@ -7,8 +8,11 @@ const Profile = () => {
       <Navbar />
       <div className={style.content}>
         <h1>Profile</h1>
-        <p>Profile content</p>
+        <img src="https://placehold.jp/250x250.png" alt="" />
+        <h2>Name Surname</h2>
       </div>
+      <h1 className={style.h1}>My posts</h1>
+      <Posts />
     </div>
   );
 };
