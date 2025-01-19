@@ -1,42 +1,42 @@
 .container {
-    background-color: #c2b97f;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    padding: 40px;
-    border-radius: 30px;
-    margin: auto;
-    margin-top: 5%;
+  background-color: #c2b97f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 40px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 5%;
 }
 .container a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-top: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-top: 20px;
 }
 .container a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  cursor: pointer;
 }
 .form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 .form input {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
 
 .button {
-    color: white !important;
-    background-color: grey !important;
-    margin-top: 30px !important;
-    padding: 10px !important;
-    font-size: 16px !important;
-    width: 200px;
+  color: white !important;
+  background-color: grey !important;
+  margin-top: 30px !important;
+  padding: 10px !important;
+  font-size: 16px !important;
+  width: 200px;
 }
